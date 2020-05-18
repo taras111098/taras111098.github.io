@@ -1,0 +1,410 @@
+body{
+margin: 0;
+font-family: 'Montserrat', sans-serif;
+font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing:border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+}
+/*================== container======== */
+.container {
+    max-width: 1920px;
+    width: 100%;
+    max-height: 1080px;
+    height: 100%;
+}
+
+/*============== Шапка сайту =====================================*/
+.header {
+width: 100%;
+max-width: 2000px;
+padding: 130px;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1000;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+}
+/* ===================навігація============*/
+
+.nav{
+    display: flex;
+font-size: 18px;
+
+}
+
+.nav__link{
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    position: relative;
+}
+.nav__link:first-child{
+    margin-left: 0;
+}
+
+.nav__link::after{
+    content:"";
+display: block;
+width: 100%;
+height: 4px;
+background-color: #00ffff;
+position: absolute;
+display: none;
+top: 100%;
+left: 0;
+z-index: 1;
+}
+.nav__link:hover{
+   
+    color: #00ffff;
+}
+.nav__link:hover:after{
+    display: block;
+}
+
+/*===================== фон ================*/
+
+ .intro{
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+  width: 100%;
+  max-width: 1920px;
+  max-height: 1080px;
+  height: 100%;
+ background: url("img/intro.jpg") no-repeat center;
+ -webkit-background-size: cover ;
+ background-size: cover;   
+ }
+/* ===========кнопка========== */
+ .header__scroll{
+    display: inline-block;
+    margin-top:760px;
+    font-size: 18px;
+    text-align: center;
+    font-family:'Montserrat', sans-serif ;
+    color: white;
+    text-decoration: none;
+ }
+
+/* =============опис ===========*/
+ .about_me_text{
+     background-color: aqua;
+     max-width: 500px;
+     width: 100%;
+     margin-bottom: +5px;
+ }
+
+ .about_me_text_title{
+    
+    width: 250px;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    font-size: 42pt;
+    margin-left: 55px;
+    color: white;
+    padding-top: 50px;
+}
+ .blu{
+    color: #3624ea;
+}
+.about_me_text_subtitle{
+    margin-left: 55px;
+    
+    width: 400px;
+    
+    font-family:'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height:1.5;
+    color: #3624ea;
+    padding-top: 50px;
+}
+.btn{
+    margin-left: 50px;
+    margin-top: 90px;
+    text-align: center;
+    display: inline-block;
+    width: 330px;
+    padding: 30px 40px;
+    border: 2px solid white;
+    font-size: 24px;
+    font-weight: 700;
+    color:#3624ea;
+    text-decoration: none;
+}
+ .about_me{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+/* фото */
+.photo_about_me_1_2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1330;
+    width: 100%;
+   
+}
+
+section{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.photo_about_me{
+    max-width: 1340;
+    width: 100%;
+    height: 100vh;
+    max-height: 1000px;
+}
+
+.ph1_about_me{
+    max-width: 670px;
+    width: 100%;
+    max-height: 615px;
+}
+.ph2_about_me{
+    max-width: 670px;
+    width: 100%;
+}
+
+.ph3_about_me{
+    max-width: 1340px;
+    width: 100%;
+    max-height: 1000px;
+    height: 100%;
+    margin-top: -5px;
+}
+/*====== Синій бокс =======*/
+.part_3{
+    margin-top: -5px;
+}
+
+.part3{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.part3_1{
+    background-color: white;
+     max-width: 500px;
+     width: 100%;
+     height: 700px;
+     
+}
+
+.part3_2{
+    
+    background-color: #3624ea;
+    max-width: 1340;
+    width: 100%;
+    height: 700px;
+}
+
+.text__block2{
+    margin-left: 250px;
+    margin-top: 180px;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.text__block_2{
+    margin-top: 50px;
+    margin-left: 250px;
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    color: white; 
+ line-height: 4;
+}
+.btn_2{
+    margin-left: 250px;
+    margin-top:80px;
+    text-align: center;
+    display: inline-block;
+    width: 330px;
+    padding: 30px 40px;
+    border: 2px solid white;
+    font-size: 24px;
+    font-weight: 700;
+    color:white;
+    text-decoration: none;    
+}
+
+.foto_men{
+    position: relative;
+    z-index: 1000;
+}
+.men__1{
+    margin-top: 161px;
+    width: 100%;
+
+    max-width: 635px;
+}
+/* ===========Нижня частина========= */
+.bottom{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    background: url("img/bottom.png");
+    width: 100%;
+    max-width: 1920px;
+    height: 1641px; 
+    margin-top: -5px;
+}
+
+.text__bottom1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 2;
+    width: 100%;
+    max-width: 440px;
+    margin-top: 80px;
+    margin-left: 200px;
+    color: white;
+}
+
+.text_bottom2{
+    width: 80%;
+    font-family:'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700; 
+    color: white;
+    line-height: 3;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+.bottom__logo{
+    position: relative;
+    width: 100%;
+    margin-top: 980px;
+   display: inline-block;
+   text-align: center;
+    z-index: 1;
+}
+@media screen and (max-width: 1300px )
+{
+    .about_me_text_title{
+    width:25%;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.about_me_text_subtitle{
+    width: 50%;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.about_me{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+}
+
+.ph3_about_me{
+    
+    margin-top: -5px;
+}
+
+.btn{
+    margin-top: 50px;
+    width: 300px;
+    padding: 15px 10px;
+    border: 1px solid white;
+    font-size: 18px;   
+}
+
+.text__block2{
+    margin-left: 150px;
+    margin-top: 100px;
+   
+    font-size: 18px;
+   
+}
+
+.text__block_2{
+    margin-top: 20px;
+    margin-left: 150px;
+ 
+    font-size: 16px;
+    
+ line-height: 2;
+}
+
+.btn_2{
+    margin-left: 150px;
+    margin-top:80px;
+    
+    padding: 15px 20px;
+    border: 1px solid white;
+    font-size: 20px;
+}
+
+
+}
+@media screen and (max-width: 1215px )
+{
+    .about_me{
+     max-height: 500px;
+    }
+    .about_me_text{
+       max-height: 500px;  
+    }
+    .about_me_photo{
+        max-height: 500px;
+    }
+
+    .about_me_text_title{
+        width:20%;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .about_me_text_subtitle{
+        width: 60%;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    .btn{
+        margin-top: 50px;
+        width: 300px;
+        padding: 15px 10px;
+        border: 1px solid white;
+        font-size: 15px;   
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 1105px )
+{
+    .part3_2{
+        margin-left: -85px;
+    }
+   
+}
