@@ -1,0 +1,239 @@
+/* ----------------- Specification global rule -----------------*/
+*, *::before, ::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* ----------------- Body -----------------*/
+body {
+  background-image: url(../assets/images/images/background.png);
+}
+
+/* ----------------- Header -----------------*/
+.header {
+  padding-top: 35px;
+}
+
+/* ----------------- Logo -----------------*/
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 44px;
+}
+
+/* ----------------- Navigation -----------------*/
+.menu {
+  margin-top: 10px;
+}
+
+.menu__item {
+  line-height: 1;
+  font-family: "Bebas Neue", cursive;
+  margin-left: 60px;
+}
+
+.menu__item a {
+  font-size: 24px;
+  color: #474747;
+}
+
+p1 {
+  font-size: 14px;
+  color: #a5a5a5;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------- Slider -----------------*/
+.img-fluid {
+  margin-top: 30px;
+  max-width: 1400px;
+  width: 100%;
+  max-height: 675px;
+  height: 100%;
+}
+
+#corusel {
+  margin-top: 20px;
+}
+
+/* ----------------- Description slider -----------------*/
+.description_slider {
+  margin: auto auto;
+  height: 95px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  background: url(../assets/images/images/description_bg_03.png);
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 10px;
+  font-family: "Bebas Neue", cursive;
+  color: #474747;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+p2 {
+  font-size: 18px;
+  font-family: "Bebas Neue", cursive;
+  color: #474747;
+  padding-bottom: 5px;
+}
+
+/* ----------------- Featured block -----------------*/
+.icon {
+  margin-right: 25px;
+}
+
+.title_featured {
+  margin-top: 70px;
+  line-height: 1;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+}
+
+.subtitle_featureed {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.btn {
+  margin-top: 15px;
+  padding: 0;
+}
+
+button.btn {
+  padding: 0;
+}
+
+button {
+  margin-top: 15px;
+  background-color: none;
+  border: 0em;
+}
+
+p3 {
+  font-family: "Bebas Neue", cursive;
+}
+
+/* ----------------- Projects block  -----------------*/
+/* ----------------- Projects block title -----------------*/
+.subtitle_project {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.title_project {
+  margin-top: 20px;
+  line-height: 1;
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+}
+
+.line_projects {
+  max-width: 1920px;
+  width: 100%;
+  max-height: 45px;
+  height: 100%;
+  margin: 50px auto;
+}
+
+.img_projects {
+  width: 100%;
+}
+
+/* ----------------- Footer -----------------*/
+.footer_line {
+  margin-top: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-height: 75px;
+  height: 100%;
+  width: 100%;
+  max-width: 1920px;
+  background: url(../assets/images/images/Footer_line_main_02.png);
+  color: #9b9b9b;
+  font-size: 10px;
+}
+
+.bg {
+  height: 1200px;
+}
+
+p4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 12px;
+}
+
+/* ----------------- Media request -----------------*/
+/* ----------------- Media request for header -----------------*/
+@media screen and (min-width: 1200px) {
+  .nav {
+    float: right;
+  }
+}
+@media screen and (max-width: 992px) {
+  .logo {
+    display: block;
+    text-align: center;
+  }
+
+  .menu {
+    text-align: center;
+    margin: auto auto;
+  }
+
+  .icon {
+    width: 30px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    text-align: center;
+    margin: auto auto;
+  }
+
+  .menu__item {
+    margin: auto 10px;
+  }
+
+  .icon {
+    width: 25px;
+    padding: 0;
+  }
+
+  .title_featured {
+    margin-top: 70px;
+    line-height: 1;
+    font-family: "Bebas Neue", cursive;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 420px) {
+  p1 {
+    font-size: 10px;
+  }
+
+  .menu__item {
+    margin: auto 5px;
+  }
+
+  .menu__item a {
+    font-size: 20px;
+  }
+}

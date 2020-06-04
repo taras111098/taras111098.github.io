@@ -1,0 +1,329 @@
+   /* ----------------- Specification global rule -----------------*/
+   
+   *,
+   *::before,
+    ::after {
+       box-sizing: border-box;
+   }
+   
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   h6 {
+       margin: 0;
+   }
+   
+   span {
+       color: #6e6e6e;
+   }
+   /* ----------------- Body -----------------*/
+   
+   body {
+       background-image: url(../assets/images/images/background.png);
+   }
+   /* ----------------- Header -----------------*/
+   
+   .header {
+       padding-top: 35px;
+   }
+   /* ----------------- Logo -----------------*/
+   
+   .logo {
+       font-family: "Pacifico", cursive;
+       font-size: 42px;
+       color: #474747;
+   }
+   /* ----------------- Navigation -----------------*/
+   
+   .menu {
+       margin-top: 10px;
+   }
+   
+   .menu__item {
+       line-height: 1;
+       font-family: "Bebas Neue", cursive;
+       margin-left: 60px;
+       color: #474747;
+   }
+   
+   .menu__item a {
+       font-size: 24px;
+       color: #474747;
+   }
+   
+   p1 {
+       font-size: 14px;
+       color: #a5a5a5;
+   }
+   
+   ul,
+   li {
+       display: block;
+       margin: 0;
+       padding: 0;
+   }
+   /*-----------------Main Content--------------*/
+   
+   .projects h1 {
+       font-family: "Bebas Neue", cursive;
+       color: #474747;
+       font-size: 24px;
+   }
+   
+   .projects {
+       width: 76%;
+       padding-top: 50px;
+       font-family: "Helvetica-Italic";
+       color: #9e9e9e;
+       font-size: 12px;
+   }
+   
+   .main_content_line {
+       max-height: 5px;
+       height: 100%;
+       width: 100%;
+       background: url(../assets/images/Header\ Background.png);
+   }
+   
+   .main_nav {
+       padding-top: 10px;
+   }
+   
+   .main_menu__item {
+       line-height: 1;
+       font-family: "Bebas Neue", cursive;
+       margin-right: 10px;
+       color: #474747;
+   }
+   
+   .main_menu__item a {
+       font-size: 16px;
+       color: #474747;
+   }
+   
+   #stick {
+       font-size: 14px;
+   }
+   /*---------------Rows & photos---------------*/
+   
+   .feature {
+       padding-top: 15px;
+   }
+   
+   .feature_first__icon {
+       background-image: url(./images/icon_1.png);
+       width: 208px;
+       height: 240px;
+   }
+   
+   .feature_second__icon {
+       background-image: url(./images/img\ 2.png);
+       width: 208px;
+       height: 331px;
+   }
+   
+   .feature_third__icon {
+       background-image: url(./images/img\ 3.png);
+       width: 208px;
+       height: 264px;
+   }
+   
+   .feature_fourth__icon {
+       background-image: url(./images/img\ 4.png);
+       width: 208px;
+       height: 332px;
+   }
+   
+   .feature_fifth__icon {
+       background-image: url(./images/img\ 5.png);
+       width: 208px;
+       height: 264px;
+   }
+   
+   .feature_sixth__icon {
+       background-image: url(./images/img\ 6.png);
+       width: 208px;
+       height: 285px;
+   }
+   
+   .feature__title {
+       font-size: 16px;
+       color: #474747;
+       font-family: "Bebas Neue", cursive;
+   }
+   
+   .feature_under_title {
+       font-size: 12px;
+       color: #949393;
+   }
+   
+   .feauture_text {
+       color: #515151;
+       font-size: 12px;
+       font-family: "Helvetica-Regular";
+   }
+   /* ------------Buttons---------- */
+   
+   .pagination {
+       padding-top: 100px;
+   }
+   
+   .buttons {
+       height: 5px;
+       width: 23px;
+       background-color: #9a9a9a;
+       margin-right: 7px;
+   }
+   /* ------------Side Bar-------- */
+   
+   .about__blitz {
+       margin-right: 0;
+       font-family: "Bebas Neue", cursive;
+       font-size: 15pt;
+       padding-top: 109px;
+   }
+   
+   .line_about {
+       background: url(../assets/images/line.jpg);
+       height: 6px;
+       width: 100%;
+   }
+   
+   .text_about {
+       font-family: "Helvetica-Regular";
+       font-size: 12px;
+       color: #464646;
+       padding-top: 15px;
+   }
+   
+   .about_title {
+       font-family: "Bebas Neue";
+       font-size: 12pt;
+   }
+   
+   .about_title_text {
+       font-family: "Bebas Neue";
+       font-size: 12pt;
+   }
+   
+   .dfn {
+       color: #bababa;
+       font-family: "Helvetica-Regular";
+       font-size: 12px;
+   }
+   
+   .about_text_ago {
+       font-family: "Helvetica-Regular";
+       color: #bababa;
+       font-size: 12px;
+   }
+   /* ----------------- Footer -----------------*/
+   
+   .footer_line {
+       padding-top: 30px;
+       padding-bottom: 30px;
+       max-height: 75px;
+       height: 100%;
+       width: 1920px;
+       max-width: 100%;
+       background: url(../assets/images/images/Footer_line_main_02.png);
+       color: #9b9b9b;
+       font-size: 10px;
+   }
+   
+   .bg {
+       height: 75px;
+   }
+   /* ---------------Hover------------- */
+   
+   .buttons:hover {
+       background-color: #e8e6e6;
+       transition: 0.4s ease;
+   }
+   /* ----------------- Media request -----------------*/
+   /* ----------------- Media request for header -----------------*/
+   
+   @media screen and (max-width: 992px) {
+       .logo {
+           display: block;
+           text-align: center;
+       }
+   }
+   
+   @media screen and (max-width: 768px) {
+       .feature {
+           display: flex;
+           text-align: center;
+           align-items: center;
+           flex-direction: column;
+       }
+       .main_nav {
+           padding-top: 20px;
+           padding-bottom: 10px;
+       }
+       .rows {
+           display: flex;
+           justify-content: center;
+       }
+       .projects,
+       .menu {
+           text-align: center;
+           margin: auto auto;
+       }
+       .menu__item {
+           margin: auto 10px;
+       }
+   }
+   
+   @media screen and (max-width: 538px) {
+       .copyrighting {
+           text-align: center;
+       }
+   }
+   
+   @media screen and (max-width: 420px) {
+       .row {
+           display: block;
+           text-align: center;
+       }
+       p1 {
+           font-size: 10px;
+       }
+       .main_menu__item {
+           margin: auto 2px;
+       }
+       .menu__item {
+           margin: auto 5px;
+       }
+       .menu__item a {
+           font-size: 20px;
+       }
+       .main_menu__item a {
+           font-size: 14px;
+       }
+   }
+   
+   @media screen and (max-width: 390px) {
+       .row {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+   }
+   /*---------Fonts----------*/
+   
+   @font-face {
+       font-family: "Helvetica-Italic";
+       src: url("../assets/fonts/FontsFree-Net-HelveticaNeueItalic.ttf") format("truetype");
+       font-style: normal;
+       font-weight: normal;
+   }
+   
+   @font-face {
+       font-family: "Helvetica-Regular";
+       src: url("../assets/fonts/Helvetica\ Neue\ Regular.ttf") format("truetype");
+       font-style: normal;
+       font-weight: normal;
+   }

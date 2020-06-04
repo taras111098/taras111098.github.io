@@ -1,0 +1,227 @@
+/* ----------------- Specification global rule -----------------*/
+*, *::before, ::after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* ----------------- Body -----------------*/
+body {
+  background-image: url(images/background.png);
+}
+
+/* ----------------- Header -----------------*/
+.header {
+  padding-top: 35px;
+}
+
+/* ----------------- Logo -----------------*/
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 44px;
+}
+
+/* ----------------- Navigation -----------------*/
+.menu {
+  margin-top: 10px;
+}
+
+.menu__item {
+  line-height: 1;
+  font-family: "Bebas Neue", cursive;
+  margin-left: 60px;
+}
+
+.menu__item a {
+  font-size: 24px;
+  color: #474747;
+}
+
+p1 {
+  font-size: 14px;
+  color: #a5a5a5;
+}
+
+ul, li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------- Footer -----------------*/
+.footer_line {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  max-height: 75px;
+  height: 100%;
+  width: 1920px;
+  max-width: 100%;
+  background: url(images/Footer_line_main_02.png);
+  color: #9b9b9b;
+  font-size: 10px;
+}
+
+img{
+  width: 100%;
+}
+
+/*------------------about_us-----------------*/
+.about_us_title{
+  font-size: 24pt;
+  padding-top: 75px;
+}
+.about_us_text{
+  font-family: 'Helvetica Neue';
+  font-size: 12pt;
+  color: #d8d8d8;
+ 
+}
+.line_about{
+  background: url(images/line.jpg);
+ height: 6px;
+ width: 100%;
+ padding-right: 0;
+}
+/*-------------------post1---------------------*/
+.our_title{
+  font-size: 18pt;
+  padding-top: 40px;
+  padding-left: 15px;
+}
+.our_text{
+  font-family: 'Helvetica Neue';
+  font-size: 12pt;
+  color: #d8d8d8;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+.our_text_info{
+  font-family: 'Helvetica Neue';
+  font-size: 12pt;
+  padding-top: 25px;
+  padding-left: 15px;
+}
+.line_post1{
+  background: url(images/line.jpg);
+ height: 6px;
+ width: 100%;
+ padding-right: 0;
+ margin-top: 55px;
+}
+/* -------------------post2---------------------*/
+.info_col-md-4{
+  padding-top: 57px;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+.background{
+  background-color: white;
+}
+.post_name_title{
+  font-family: "Bebas Neue";
+  font-size: 18pt;
+  padding-top: 17px;
+}
+.post_min_title{
+  font-family: "Bebas Neue";
+  font-size: 12pt;
+  color: #a2a1a1;
+}
+.numbers{
+  right: 0;
+  font-family: "Bebas Neue";
+  font-size: 12pt;
+  padding-top: 22px;
+}
+.post_text_info{
+  font-family: 'Helvetica Neue';
+  font-size: 12pt;
+  padding-left: 15px;
+  padding-bottom: 28px;
+}
+.retreat{
+  padding-top: 70px;
+}
+
+/* ----------------- Media request for header -----------------*/
+@media screen and (min-width: 1200px) {
+  .nav {
+    float: right;
+  }
+}
+@media screen and (max-width: 992px) {
+  .logo {
+    display: block;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menu {
+    text-align: center;
+    margin: auto auto;
+  }
+
+  .menu__item {
+    margin: auto 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  p1 {
+    font-size: 10px;
+  }
+
+  .menu__item {
+    margin: auto 5px;
+  }
+
+  .menu__item a {
+    font-size: 20px;
+  }
+}
+/* ----------------- Media request -----------------*/
+@media screen and (max-width: 1000px){
+.numbers{
+  margin-left: -20px;}
+
+.post_name_title{
+  margin-right: -30px;
+  } 
+.post_min_title{
+  font-size: 9pt;
+  margin-right: -30px;  
+  }
+}
+@media screen and (max-width: 768px){
+  .about_us_title{
+    font-size: 18pt;
+  }
+  .about_us_text{
+    font-size: 9pt;
+  }
+  .our_title{
+    font-size: 12pt;
+  } 
+  .our_text{
+    font-size: 9pt;
+  }
+  .our_text_info{
+    font-size: 9pt;
+  }
+  img{
+    width: 100%;
+  }
+  .post_name_title{
+    font-size: 12pt;
+    padding-left:0;
+    padding-right: 0;
+  }
+  .numbers{
+    font-size: 9pt;
+  }
+  .post_text_info{
+    font-size: 9pt;
+  }
+}

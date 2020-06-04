@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('fonts/ofont.ru_Helvetica Neue.eot');
+	src: local('☺'), url('fonts/ofont.ru_Helvetica Neue.woff') format('woff'), url('fonts/ofont.ru_Helvetica Neue.ttf') format('truetype'), url('fonts/ofont.ru_Helvetica Neue.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeue-Medium';
+	src: url('fonts/HelveticaNeue-Medium.eot');
+	src: local('☺'), url('fonts/HelveticaNeue-Medium.woff') format('woff'), url('fonts/HelveticaNeue-Medium.ttf') format('truetype'), url('fonts/HelveticaNeue-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
